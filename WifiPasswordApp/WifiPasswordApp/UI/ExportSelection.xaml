@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="WifiPasswordApp.UI.ExportSelection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="White" Width="80">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <RadioButton Content="Csv" HorizontalAlignment="Left" Margin="10,10,0,0"/>
+            <RadioButton Content="E-Posta" HorizontalAlignment="Left" Margin="10,10,0,0"/>
+            <RadioButton Content="Pdf" HorizontalAlignment="Left" Margin="10,10,0,0"/>
+            <Button Height="20" Content="Onayla" Margin="10,10,10,0"></Button>
+        </StackPanel>
+        
+    </Grid>
+</UserControl>
